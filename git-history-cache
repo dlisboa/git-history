@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ref=$(git branch --show-current | sed -e 's/@history-//')
+root=$(git root)
+git rev-list --ancestry-path $ref...$root > .githistory
+echo $root >> .githistory
+

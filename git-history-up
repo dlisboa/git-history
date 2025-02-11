@@ -1,0 +1,5 @@
+#!/bin/bash
+
+current=$(git rev-parse HEAD)
+parent=$(grep -B1 $current .githistory | head -n1)
+git reset --hard $parent
