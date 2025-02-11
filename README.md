@@ -8,6 +8,12 @@ Video:
 
 [![asciicast](https://asciinema.org/a/TuqGPjz4iERu1NPl2ytpeO9e6.svg)](https://asciinema.org/a/TuqGPjz4iERu1NPl2ytpeO9e6)
 
+## Installation
+
+```shell
+$ BIN=/path/to/bin bash install.sh
+```
+
 ## git-history-begin
 
 Creates a "history branch" off the current branch named `@history-<branch name>`. This separates the history traversal from the working tree.
