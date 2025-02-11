@@ -39,3 +39,7 @@ $ git history-cache
 ## git-history-root
 
 A helper script, not used by the other scripts but useful in its own.
+
+## LICENSE
+
+The MIT License. See [LICENSE](LICENSE).
